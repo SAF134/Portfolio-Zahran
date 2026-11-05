@@ -27,7 +27,7 @@ export const PROFILE_DATA: Record<Language, ProfileData> = {
     greeting: "HELLO, I AM",
     name: "Iftikar Muhamad Zahran, S.Tra.",
     // TODO: ganti posisi diminati sesuai preferensi karir terbaru
-    role: "Supply Chain Management / Logistics & Transportation Analyst",
+    role: "Supply Chain Management/Logistics/Transportation Analyst",
     // TODO: ganti deskripsi profil dengan ringkasan profesional pribadi
     description:
       "I am a Bachelor of Transportation Management graduate from Universitas Logistik dan Bisnis Internasional with hands-on aviation industry experience through an internship in Supply Chain Management at PT Pelita Air Service. I have an in-depth understanding of supply chain workflows, distribution planning, routing analysis, and operational data processing with software including SPSS, QGIS, and Microsoft Office. To strengthen my professional competency, I have earned certifications in Dangerous Goods Handling for Multimode Transport, Modern Transportation Management, ISO 9001 & ISO 45001 Awareness, and OHSMS (SMK3) Awareness. With a robust blend of academic foundation, operational field experience, and OHS/ISO standards awareness, I am prepared to contribute effectively to company operational efficiency in transportation and logistics.",

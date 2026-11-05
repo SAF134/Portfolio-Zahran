@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none">
+  <rect width="800" height="600" fill="#F4F4F5"/>
+  <rect x="4" y="4" width="792" height="592" rx="16" stroke="#18181B" stroke-width="4" stroke-dasharray="10 10"/>
+  <!-- Camera Icon -->
+  <g transform="translate(340, 210) scale(2.5)">
+    <path d="M4 7V19C4 20.1 4.9 21 6 21H18C19.1 21 20 20.1 20 19V7C20 5.9 19.1 5 18 5H15.5L14 3H10L8.5 5H6C4.9 5 4 5.9 4 7Z" stroke="#71717A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#E4E4E7"/>
+    <circle cx="12" cy="13" r="4" stroke="#71717A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#F4F4F5"/>
+  </g>
+  <text x="400" y="380" text-anchor="middle" fill="#18181B" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700">Bukti Foto Kegiatan</text>
+  <text x="400" y="415" text-anchor="middle" fill="#71717A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500">Dokumentasi Kerja / Magang</text>
+</svg>

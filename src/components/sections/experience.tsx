@@ -5,6 +5,7 @@ import { useLanguage } from "@/context/language-context";
 import { EXPERIENCE_DATA, EXPERIENCE_SECTION } from "@/data/experience";
 import { SectionHeader } from "@/components/ui/section-header";
 import { TimelineCard } from "@/components/ui/timeline-card";
+import { ExperiencePhotosDialog } from "@/components/sections/experience-photos-dialog";
 
 export function ExperienceSection() {
   const { language } = useLanguage();
@@ -32,6 +33,11 @@ export function ExperienceSection() {
               period={item.period}
               points={item.points}
               tags={item.technologies}
+              actions={
+                item.activityPhotos ? (
+                  <ExperiencePhotosDialog experience={item} />
+                ) : undefined
+              }
             />
           ))}
         </div>

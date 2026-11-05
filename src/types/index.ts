@@ -57,6 +57,13 @@ export interface SkillItem {
   category?: "Hard Skill" | "Soft Skill";
 }
 
+export interface ActivityPhoto {
+  id: string;
+  url: string;
+  caption: string;
+  alt?: string;
+}
+
 export interface ExperienceItem {
   id: string;
   company: string;
@@ -65,6 +72,7 @@ export interface ExperienceItem {
   period: string;
   points: string[];
   technologies?: string[];
+  activityPhotos?: ActivityPhoto[];
 }
 
 export interface OrganizationItem {
